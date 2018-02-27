@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<script>
+    //Example 1 ---------------------------------------
+    //using array foreach, we are declaring the arrays as we are calling .forEach
+    let i = 0;
+    [10, 20, 14, 12].forEach(element => {
+        i += element;
+    });
+    console.log(i);
+
+    //Example 2 ---------------------------------------
+    // we declare the array first then use the array variable name for .forEach, the array value is called array
+    let array = [10, 20, 30, 40];
+    let sum = 0;
+    array.forEach(element2 =>{
+        sum += element2;
+    });
+    console.log(sum);
+</script>
+<body>
+    
+</body>
+</html>
